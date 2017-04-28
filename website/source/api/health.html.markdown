@@ -74,7 +74,7 @@ $ curl \
     "Output": "",
     "ServiceID": "redis",
     "ServiceName": "redis",
-    "ServiceTags": ["master"] 
+    "ServiceTags": ["primary"] 
   }
 ]
 ```
@@ -136,7 +136,7 @@ $ curl \
     "Output": "",
     "ServiceID": "redis",
     "ServiceName": "redis",
-	"ServiceTags": ["master"]
+	"ServiceTags": ["primary"]
   }
 ]
 ```
@@ -214,7 +214,7 @@ $ curl \
     "Service": {
       "ID": "redis",
       "Service": "redis",
-      "Tags": ["master"],
+      "Tags": ["primary"],
       "Address": "10.1.10.12",
       "Port": 8000
     },
@@ -228,7 +228,7 @@ $ curl \
         "Output": "",
         "ServiceID": "redis",
         "ServiceName": "redis",
-		"ServiceTags": ["master"]
+		"ServiceTags": ["primary"]
       },
       {
         "Node": "foobar",
@@ -314,7 +314,7 @@ $ curl \
     "Output": "",
     "ServiceID": "redis",
     "ServiceName": "redis",
-	"ServiceTags": ["master"]
+	"ServiceTags": ["primary"]
   }
 ]
 ```
